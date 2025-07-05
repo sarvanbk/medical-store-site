@@ -45,11 +45,14 @@ section{
      padding: 10px;
      border-radius: 6px;
  }
-
- .images-1>img {
+ .images-1>img{object-fit: contain;
+    width: 356px;
+    height: 444px;
+ }
+ /* .images-1>img {
      width: 470px;
      height: 600px;
- }
+ } */
 .category-icon img{
   width: 220px;
   height: 76px;
