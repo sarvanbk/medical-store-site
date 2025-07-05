@@ -37,6 +37,8 @@ section{
 
  .heading-1 img {
      opacity: 15%;
+     height: 118px;
+    width: 150px;
  }
 
  .btn-1 {
@@ -45,7 +47,8 @@ section{
      padding: 10px;
      border-radius: 6px;
  }
- .images-1>img{object-fit: contain;
+ .images-1>img{
+  object-fit: contain;
     width: 356px;
     height: 444px;
  }
@@ -57,6 +60,7 @@ section{
   width: 220px;
   height: 76px;
   object-fit: contain;
+  margin-left: 230px;
 }
  .heading-2{
     padding: 20px;
@@ -82,7 +86,6 @@ section{
       width: 80px;
       height: 80px;
       border-radius: 50%;
-      background-color: #eee5d3;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -106,7 +109,7 @@ section{
     } 
     .product-card {
       border-radius: 12px;
-     padding: 41px 41px 32px 37px;
+     padding: 44px;
       margin: 40px;
       background-color: #f8f6f2;
       box-shadow: 0 4px 6px rgba(0,0,0,0.05);
@@ -171,7 +174,7 @@ section{
       margin-bottom: 15px;
     }
     .fa-cart-plus {
-      background-color: #a49066a3;
+ 
       border: none;
       padding: 2px;
        
